@@ -1,0 +1,28 @@
+Ajax datatables.net
+select2.org
+bootstrap input
+
+//For hackathon it is important to use network sharing 
+//For network sharing of database we always need to change the ip address of listen event 
+and server name with the ip address of the network you are connected with.
+//Always take care and make sure that if u have shared a file with networks always after editing the file 
+do save the file and close the file mandatorily to avoid the loss of data.  
+
+
+OOP CONCEPTS:
+1.Whenever a child class has a constructor in php it is not necessary for it to use
+scope resolution opertator and take values from parent class in php
+2.When we create an object of child class in php it first creates an object of its parent class
+if construtor of parent class has been assigned values from child class then it gets those values otherwise null values are passed
+3.Destructor is called whenever object gets out of memory or if it gets killed
+4.FOr child class automatically destructor of its parent class is called
+5.If we use separate destructor for child class then this destructor overrides the destructor of parent class(Recall the diagram
+of sir)
+6.Two methods scope resolution operator
+ a)CLASS NAME::(this can be used if b extends a and c extends b and we want to use constructor of a in c because b is the only parent of c)
+ b)parent::
+7.Default access specifier in php is public
+8.protected variables cannot be accessed within different non sub classes in php
+9.private variables cannot be accessed even within different classes in php which is similar to java 
+10.PHP ke saare file linking name pe chlte hai aur JS ke id pe 
+

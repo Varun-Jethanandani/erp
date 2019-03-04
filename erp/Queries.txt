@@ -1,0 +1,5 @@
+JSON object working
+TextArea Work
+Toastr change and update
+Use of redirect
+Validation in java script
